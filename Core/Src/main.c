@@ -100,10 +100,10 @@ int main(void)
   // Встановлюємо значення регістрів захоплення/порівняння (CCR)
   // Це визначає ширину імпульсу (длительность HIGH), тобто яскравість LED через PWM
 
-  TIM4->CCR1 = 632;  // Green
-  TIM4->CCR2 = 401;  // Orange
-  TIM4->CCR3 = 168;  // Red
-  TIM4->CCR4 = 646;  // Blue
+  TIM4->CCR1 = 272;  // Green
+  TIM4->CCR2 = 836;  // Orange
+  TIM4->CCR3 = 764;  // Red
+  TIM4->CCR4 = 504;  // Blue
   /* USER CODE END 2 */
 
   /* Infinite loop */
